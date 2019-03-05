@@ -203,7 +203,7 @@ func (w *Web) dnspod(req *http.Request) (code int, res string) {
 }
 
 func (w *Web) recordStartCloudwise(c *models.CloudwiseData) {
-	// tasksummary = "http://test.longzhu.com/test"
+	// tasksummary = "http://test.abc.com/test"
 	list := strings.Split(c.TaskSummary, "://")
 	if len(list) < 2 {
 		return
