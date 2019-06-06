@@ -27,7 +27,7 @@ const (
 
 func init() {
 	//flag.StringVar(&proxyAddr, "x", "no", "proxy address: ip:port")
-	flag.StringVar(&webURL, "w", "http://test-soft.1sapp.com/ping", "host: http://test.com/ping")
+	flag.StringVar(&webURL, "w", "http://test-soft.sb.com/ping", "host: http://test.com/ping")
 }
 
 func main() {
