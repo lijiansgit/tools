@@ -21,9 +21,9 @@ func CreateFile() {
 
 	var str string
 	str = "global:\n  scrape_interval: 10s\n  evaluation_interval: 10s\n  external_labels:\n"
-	str = str + "    monitor: 'qtt-thanos-prometheus-db'\n"
+	str = str + "    monitor: 'sb-thanos-prometheus-db'\n"
 	str = str + "alerting:\n  alertmanagers:\n  - static_configs:\n"
-	str = str + "    - targets: ['monitor-gecailong.qtt.com:9093']\n"
+	str = str + "    - targets: ['monitor-gecailong.sb.com:9093']\n"
 	str = str + "rule_files: ['rules/*.rules']\n"
 	str = str + "scrape_configs:\n  - job_name: 'prometheus'\n"
 	str = str + "    static_configs:\n"

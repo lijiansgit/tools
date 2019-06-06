@@ -24,8 +24,8 @@ const (
 
 func init() {
 	flag.StringVar(&ips, "ip", "172.28.245.140", "172.28.245.140,172.28.245.141")
-	flag.StringVar(&consulAddr, "cAddr", "http://consul.qtt6.cn,http://op-consul.qutoutiao.net",
-		"http://consul.qtt6.cn")
+	flag.StringVar(&consulAddr, "cAddr", "http://consul.sb6.cn,http://op-consul.sb.net",
+		"http://consul.sb6.cn")
 }
 
 func main() {

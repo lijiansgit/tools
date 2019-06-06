@@ -7,15 +7,14 @@ import (
 )
 
 const (
-	confPath      = "/data/git.qutoutiao.net/xuyi/"
+	confPath      = "/data/git.sb.net/xuyi/"
 	vtm2RulesPath = confPath + "vtm2-conf/rules/"
 	vtm2PoolsPath = confPath + "vtm2-conf/pools/"
-	vtm2Address   = "59.110.123.172"
-	vtm2LoginURL  = "https://vtm2.qutoutiao.net:9090"
+	vtm2Address   = "1.1.1.1"
+	vtm2LoginURL  = "https://vtm2.sb.net:9090"
 	vtm1PoolsPath = confPath + "vtm1-conf/pools/"
 	vtm1RulesPath = confPath + "vtm1-conf/rules/"
-	vtm1Address   = "59.110.123.172"
-	//vtm1->高防cname->高防ip->slb->vtm1->server
+	vtm1Address   = "1.1.1.1"
 )
 
 type VTM struct {
