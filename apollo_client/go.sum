@@ -1,0 +1,8 @@
+github.com/ChengjinWu/gojson v0.0.0-20181113073026-04749cc2d015 h1:OHn0yRoWqycQJUGVvHYtpMr0CKC+n1ia3+TlDop/2og=
+github.com/ChengjinWu/gojson v0.0.0-20181113073026-04749cc2d015/go.mod h1:tvVvhr03KfpXTGN/3V6PiroCTZoWduK58LVVad9rbao=
+github.com/tevid/gohamcrest v1.1.1/go.mod h1:3UvtWlqm8j5JbwYZh80D/PVBt0mJ1eJiYgZMibh0H/k=
+github.com/zouyx/agollo v2.2.3+incompatible h1:Rgbp6kgS0sSo++0TI/BOy0ykUmfGNcR76qX+4dtOeuI=
+github.com/zouyx/agollo v2.2.3+incompatible/go.mod h1:EYceU2bVDbVbWrKlvf0TW4IfY0lEaR6ZOuexHDFyPj0=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+gopkg.in/yaml.v3 v3.0.0-20191120175047-4206685974f2 h1:XZx7nhd5GMaZpmDaEHFVafUZC7ya0fuo7cSJ3UCKYmM=
+gopkg.in/yaml.v3 v3.0.0-20191120175047-4206685974f2/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
