@@ -1,6 +1,6 @@
 VERSION=1.0.0
 ifndef NAME
-    NAME=apollo_client
+    NAME=apollo-client
 endif
 
 dev:
